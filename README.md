@@ -7,11 +7,14 @@
 ```bash
 # Клонировать репозиторий
 git clone https://github.com/leavemealonemf/load-testing-service.git
-
+```
+```bash
 cd load-testing-service
-
+```
+```bash
 # Запустить все сервисы
 docker-compose up --build
+cd load-testing-service
 ```
 
 ## 🌐 URLs
