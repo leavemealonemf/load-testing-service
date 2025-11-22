@@ -21,6 +21,11 @@ import { Item } from 'lib/entities';
                     database: config.get("DB_NAME"),
                     entities: [Item],
                     synchronize: synchronize,
+                    extra: {
+                        max: 10,           
+                        min: 2,              
+                        idleTimeoutMillis: 30000,
+                    }
                 }
             },
             inject: [ConfigService],
